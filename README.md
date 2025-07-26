@@ -2,18 +2,18 @@
 This is my first project, gonna do more in the future
 
 
-def addizione(val1,val2):
+     def addizione(val1,val2):
      return val1+val2
-def sottrazione(val1,val2):
+     def sottrazione(val1,val2):
      return val1-val2
-def moltiplicazione(val1,val2):
-    return val1*val2
-def divisione(val1,val2):
-     return val1/val2
-def scelta(x):
-    print("sceglia quale operezaione vuoi fare")
-    valori=int(input("scegli il primo valore:"))
-    valori1=int(input("inserisci il secondo valore: "))
+     def moltiplicazione(val1,val2):
+         return val1*val2
+     def divisione(val1,val2):
+          return val1/val2
+     def scelta(x):
+         print("sceglia quale operezaione vuoi fare")
+         valori=int(input("scegli il primo valore:"))
+         valori1=int(input("inserisci il secondo valore: "))
     
     match x:
         case 1:
@@ -34,6 +34,6 @@ def scelta(x):
              print(f"il risullatato della divisione è:{divis}")             
         case _:
               print("non hai scelto nessuna operazione valida")
-valore=int(input("inserisci la scelta che vuoi fare: "))
-scelta(valore)
+     valore=int(input("inserisci la scelta che vuoi fare: "))
+     scelta(valore)
 
