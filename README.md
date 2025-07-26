@@ -1,4 +1,4 @@
-# calculator
+
 This is my first project, gonna do more in the future
 def addizione(val1,val2):
      return val1+val2
